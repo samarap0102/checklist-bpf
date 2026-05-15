@@ -51,7 +51,7 @@ body{
     transition: 0.2s;
 }
 
-.informações,
+.informacoes,
 .checklist {
     background-color: rgb(255, 255, 255);
     border: 1px solid #ccc;
@@ -78,6 +78,14 @@ body{
     border-radius: 5px;
     padding: 7px;
 }
+
+.icon-inspecao{
+    width: 24px;
+    height: 24px;
+    background-color:  rgb(230, 244, 241);
+    border-radius: 50%;
+    font-size: 18px;
+    }
 
 .check-higienepessoal,
 .check-armazenamento,
