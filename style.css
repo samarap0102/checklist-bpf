@@ -1,12 +1,11 @@
-*  {
-  margin: 0;
+*{margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body{
     font-family:'Montserrat', sans-serif;
-    background-color: rgb(252, 254, 255);
+    background-color: rgb(245, 253, 255);
 }
 
 .section{
@@ -21,8 +20,7 @@ body{
     align-items: center;
     padding: 20px;  
     margin-bottom: 10px;
-    border: 2px solid #ccc;
-    border-radius: 10px;  
+    border: 2px solid #ccc; 
 }
 
 .header-left{
@@ -60,7 +58,6 @@ body{
 .checklist{
     background-color: rgb(255, 255, 255);
     border: 1px solid #ccc;
-    border-radius: 10px;
     padding: 20px 25px;
     font-size: 0.8125rem;
 }
@@ -74,7 +71,7 @@ body{
     background-color: rgb(255, 255, 255);
     border: 1px solid #ccc;
     margin-top: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .checklist-list h3 {
@@ -189,6 +186,8 @@ body{
     padding: 5px 10px;
     opacity: 0.7;
     margin: 10px;
+    cursor: pointer;
+    transition: 0.2s;
 }
 
 .btn-nao-conforme{
@@ -199,6 +198,8 @@ body{
     padding: 5px 10px;
     opacity: 0.7;
     margin: 10px;
+    cursor: pointer;
+    transition: 0.2s;
 }
 
 .btn-conforme:hover{
@@ -215,13 +216,35 @@ body{
     opacity:0.8;
 }
 
+.container-salvar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.btn-salvar {
+    background-color: rgb(210, 240, 250);
+    color:rgb(0, 0, 100); 
+    border: 2px solid rgba(174, 226, 235, 1);
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn-salvar:hover {
+    border: 1px solid rgba(12, 92, 105, 1);
+    border-radius: 10px;
+}
+
 .rodape {
     margin-top: 10px;
     padding: 12px;
     background-color: rgb(244, 250, 252);
-    border-top: 1px solid rgb(220, 236, 255);
+    border: 1px solid #ccc;
     color: rgb(95, 115, 130);
-    border-radius: 10px;
     text-align: center;
 }
 
