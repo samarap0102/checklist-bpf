@@ -194,3 +194,30 @@ body{
     opacity:0.8;
 }
 
+.rodape {
+    margin-top: 10px;
+    padding: 12px;
+    background: rgb(245, 245, 245);
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.rodape-conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.75rem;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 500;
+}
+
+.rodape-conteudo span {
+    transition: 0.2s ease;
+}
+
+.rodape-conteudo span:hover {
+    color: rgb(0, 128, 128);
+}
+
+
