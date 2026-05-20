@@ -164,8 +164,16 @@ body{
     padding: 20px;
 }
 
-.check-numeracao{
-    font-weight: 550;
+.check-numeracao {
+    font-weight: 600;
+    background-color: rgb(8, 16, 56);
+    color: white;
+    width: 24px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
 }
 
 .check-texto{
@@ -179,9 +187,9 @@ body{
 }
 
 .btn-conforme{
-    background-color: rgba(198, 236, 242, 1);
-    border: 1px solid rgba(92, 186, 196, 1);
-    color: rgba(20, 108, 122, 1);
+    background-color: rgba(150, 216, 228, 0.7);
+    border: 1px solid rgba(52, 160, 176, 1);
+    color: rgb(6, 74, 86);
     border-radius: 5px;
     padding: 5px 10px;
     opacity: 0.7;
@@ -191,9 +199,9 @@ body{
 }
 
 .btn-nao-conforme{
-    background-color: rgba(255, 232, 232, 1);
-    border: 1px solid rgba(235, 150, 150, 1);
-    color: rgba(175, 55, 55, 1);
+    background-color: rgba(255, 196, 196, 0.7);
+    border: 1px solid rgba(214, 92, 92, 1);
+    color: rgb(125, 22, 22);
     border-radius: 5px;
     padding: 5px 10px;
     opacity: 0.7;
@@ -203,16 +211,16 @@ body{
 }
 
 .btn-conforme:hover{
-    background-color: rgba(174, 226, 235, 1);
-    border: 1px solid rgba(58, 166, 180, 1);
-    color: rgba(12, 92, 105, 1);
+    background-color: rgba(126, 206, 221, 1);
+    border: 1px solid rgba(28, 142, 158, 1);
+    color: rgb(3, 58, 68);
     opacity:0.8;
 }
 
 .btn-nao-conforme:hover{
-    background-color: rgba(255, 214, 214, 1);
-    border: 1px solid rgba(220, 110, 110, 1);
-    color: rgba(150, 35, 35, 1);
+    background-color: rgba(255, 178, 178, 1);
+    border: 1px solid rgba(190, 60, 60, 1);
+    color: rgb(95, 10, 10);
     opacity:0.8;
 }
 
