@@ -1,0 +1,64 @@
+:root {
+
+/*FONTE*/
+--fonte-principal: 'Montserrat', sans-serif;
+
+/*CORES*/
+--cor-preta: rgb(0, 0, 0);
+--cor-branca: rgb(255, 255, 255);
+--cor-azul-marinho: rgb(8, 16, 56);
+--cor-azul-escuro: rgb(0, 0, 100);
+--cor-azul-petroleo: rgb(20, 108, 122);
+--cor-verde-azulado: rgb(0, 128, 128);
+--cor-verde-agua: rgb(230, 244, 241);
+--cor-azul-claro: rgb(210, 240, 250);
+--cor-azul-claro-secundario: rgb(200, 231, 244);
+--cor-azul-claro-suave: rgb(228, 247, 252);
+--cor-azul-bem-claro: rgb(245, 253, 255); 
+
+/*BORDAS*/
+--cor-borda-padrao: #ccc;
+--cor-borda-suave: #eee;
+
+/*BTN LOGIN*/
+--cor-btn-login-hover: rgb(160, 215, 232);
+--cor-btn-login-hover-border: rgb(95, 175, 200);
+
+/*BTN CONFORME*/
+--cor-fundo-btn-conforme: rgba(150, 216, 228, 0.7);
+--cor-borda-btn-conforme: rgb(52, 160, 176);
+--cor-texto-btn-conforme: rgb(6, 74, 86);
+
+/*BTN CONFORME HOVER*/
+--cor-fundo-btn-conforme-hover: rgb(126, 206, 221);
+--cor-borda-btn-conforme-hover: rgb(28, 142, 158);
+--cor-texto-btn-conforme-hover: rgb(3, 58, 68);
+
+/*BTN NÃO CONFORME*/
+--cor-fundo-btn-nao-conforme: rgba(255, 196, 196, 0.7);
+--cor-borda-btn-nao-conforme: rgb(214, 92, 92);
+--cor-texto-btn-nao-conforme: rgb(125, 22, 22);
+
+/*BTN NÃO CONFORME HOVER*/
+--cor-fundo-btn-nao-conforme-hover: rgb(255, 178, 178);
+--cor-borda-btn-nao-conforme-hover: rgb(190, 60, 60);
+--cor-texto-btn-nao-conforme-hover: rgb(95, 10, 10);
+
+/*BTN SALVAR*/
+--cor-fundo-btn-salvar: rgb(210, 240, 250);
+--cor-borda-btn-salvar: rgb(174, 226, 235);
+--cor-texto-btn-salvar: rgb(0, 0, 100);
+
+/*BTN SALVAR HOVER*/
+--cor-fundo-btn-salvar-hover: rgb(12, 92, 105);
+
+/*RODAPE*/
+--cor-fundo-rodape: rgb(244, 250, 252);
+
+/*RODAPE CONTEUDO*/
+--cor-texto-rodape: rgba(0, 0, 0, 0.6);
+
+/*RODAPE CONTEUDO HOVER*/
+--cor-texto-rodape-hover: rgb(0, 128, 128);
+
+}

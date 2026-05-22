@@ -4,8 +4,8 @@
 }
 
 body{
-    font-family:'Montserrat', sans-serif;
-    background-color: rgb(245, 253, 255);
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-azul-bem-claro);
 }
 
 .section{
@@ -13,14 +13,14 @@ body{
 }
 
 .header{
-    background-color: rgb(210, 240, 250);
-    color:rgb(0, 0, 100); 
+    background-color: var(--cor-azul-claro);
+    color: var(--cor-azul-escuro);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;  
     margin-bottom: 10px;
-    border: 2px solid #ccc; 
+    border: 2px solid var(--cor-borda-suave); 
 }
 
 .header-left{
@@ -35,29 +35,29 @@ body{
     align-items: center;
     justify-content: center;
     gap: 15px;
-    color: rgb(0, 0, 0);
+    color: var(--cor-preta);
     padding: 6px 12px;
 }
 
 .btn-login{
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    border: 1px solid #ccc;
+    background-color: var(--cor-branca);
+    color: var(--cor-preta);
+    border: 1px solid var(--cor-borda-padrao);
     border-radius: 6px;
-    padding: 8px 16px;
+    padding: 8px 16px;  
     cursor: pointer;
     transition: 0.2s;
 }
 
 .btn-login:hover {
-    background-color: rgb(160, 215, 232);
-    border: 2px solid rgb(95, 175, 200);
+    background-color: var(--cor-btn-login-hover);
+    border: 2px solid var(--cor-btn-login-hover-border);
 }
 
 .informacoes,
 .checklist{
-    background-color: rgb(255, 255, 255);
-    border: 1px solid #ccc;
+    background-color: var(--cor-branca);
+    border: 1px solid var(--cor-borda-suave);
     padding: 20px 25px;
     font-size: 0.8125rem;
 }
@@ -68,15 +68,15 @@ body{
 }
 
 .checklist-list{
-    background-color: rgb(255, 255, 255);
-    border: 1px solid #ccc;
+    background-color: var(--cor-branca);
+    border: 1px solid var(--cor-borda-padrao);
     margin-top: 10px;
     border-radius: 5px;
 }
 
 .checklist-list h3 {
-    border: 1px solid #ccc;
-    background-color: rgb(228, 247, 252);
+    border: 1px solid var(--cor-borda-padrao);
+    background-color: var(--cor-azul-claro-suave);
     border-radius: 5px;
     padding: 7px;
 }
@@ -84,7 +84,7 @@ body{
 .icon-inspecao{
     width: 24px;
     height: 24px;
-    background-color:  rgb(230, 244, 241);
+    background-color:  var(--cor-verde-agua);
     border-radius: 50%;
     font-size: 18px;
 }
@@ -97,7 +97,7 @@ body{
     align-items: center;
     gap: 10px;
     padding-left: 20px;
-    border: 1px solid #eee;
+    border: 1px solid var(--cor-borda-suave);
     border-radius: 5px;
 }
 
@@ -105,7 +105,7 @@ body{
 .check-armazenamento:hover,
 .check-manipulacao:hover,
 .check-ambiente:hover {
-    background-color: rgba(245, 253, 255, 1);
+    background-color: var(--cor-azul-bem-claro);
 }
 
 .info-inspecao{
@@ -123,9 +123,9 @@ body{
 .info-item{
     display: flex;
     align-items: center;
-    background-color: rgb(245, 253, 255);
+    background-color: var(--cor-azul-bem-claro);
     gap: 10px;
-    border: 2px solid #DFF4F8;
+    border: 2px solid var(--cor-borda-suave);
     border-radius: 8px;
     padding: 15px;
     flex: 1;
@@ -135,15 +135,15 @@ body{
 .info-item input{
     padding: 8px 10px;
     border-radius: 6px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--cor-borda-padrao);
     font-size: 14px;
     transition: 0.2s;
     margin-top: 5px;
 }
 
 .info-item input:hover{
-    background-color: rgb(200, 231, 244);
-    border: 1px solid rgba(20, 108, 122, 1);
+    background-color: var(--cor-azul-claro-secundario);
+    border: 1px solid var(--cor-azul-petroleo);
 }
 
 .info-content {
@@ -166,8 +166,8 @@ body{
 
 .check-numeracao {
     font-weight: 600;
-    background-color: rgb(8, 16, 56);
-    color: white;
+    background-color: var(--cor-azul-marinho);
+    color: var(--cor-branca);
     width: 24px;
     height: 20px;
     display: flex;
@@ -187,21 +187,9 @@ body{
 }
 
 .btn-conforme{
-    background-color: rgba(150, 216, 228, 0.7);
-    border: 1px solid rgba(52, 160, 176, 1);
-    color: rgb(6, 74, 86);
-    border-radius: 5px;
-    padding: 5px 10px;
-    opacity: 0.7;
-    margin: 10px;
-    cursor: pointer;
-    transition: 0.2s;
-}
-
-.btn-nao-conforme{
-    background-color: rgba(255, 196, 196, 0.7);
-    border: 1px solid rgba(214, 92, 92, 1);
-    color: rgb(125, 22, 22);
+    background-color: var(--cor-fundo-btn-conforme);
+    border: 1px solid var(--cor-borda-btn-conforme);
+    color: var(--cor-texto-btn-conforme);
     border-radius: 5px;
     padding: 5px 10px;
     opacity: 0.7;
@@ -211,16 +199,28 @@ body{
 }
 
 .btn-conforme:hover{
-    background-color: rgba(126, 206, 221, 1);
-    border: 1px solid rgba(28, 142, 158, 1);
-    color: rgb(3, 58, 68);
+    background-color: var(--cor-fundo-btn-conforme-hover);
+    border: 1px solid var(--cor-borda-btn-conforme-hover);
+    color: var(--cor-texto-btn-conforme-hover);
     opacity:0.8;
 }
 
+.btn-nao-conforme{
+    background-color: var(--cor-fundo-btn-nao-conforme);
+    border: 1px solid var(--cor-borda-btn-nao-conforme);
+    color: var(--cor-texto-btn-nao-conforme);
+    border-radius: 5px;
+    padding: 5px 10px;
+    opacity: 0.7;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
 .btn-nao-conforme:hover{
-    background-color: rgba(255, 178, 178, 1);
-    border: 1px solid rgba(190, 60, 60, 1);
-    color: rgb(95, 10, 10);
+    background-color: var(--cor-fundo-btn-nao-conforme-hover);
+    border: 1px solid var(--cor-borda-btn-nao-conforme-hover);
+    color: var(--cor-texto-btn-nao-conforme-hover);
     opacity:0.8;
 }
 
@@ -233,9 +233,9 @@ body{
 }
 
 .btn-salvar {
-    background-color: rgb(210, 240, 250);
-    color:rgb(0, 0, 100); 
-    border: 2px solid rgba(174, 226, 235, 1);
+    background-color: var(--cor-fundo-btn-salvar);
+    border: 2px solid var(--cor-borda-btn-salvar);
+    color: var(--cor-texto-btn-salvar);
     border-radius: 5px;
     padding: 10px;
     cursor: pointer;
@@ -243,16 +243,15 @@ body{
 }
 
 .btn-salvar:hover {
-    border: 1px solid rgba(12, 92, 105, 1);
+    border: 1px solid var(--cor-fundo-btn-salvar-hover);
     border-radius: 10px;
 }
 
 .rodape {
     margin-top: 10px;
     padding: 12px;
-    background-color: rgb(244, 250, 252);
-    border: 1px solid #ccc;
-    color: rgb(95, 115, 130);
+    background-color: var(--cor-fundo-rodape);
+    border: 1px solid var(--cor-borda-padrao);
     text-align: center;
 }
 
@@ -262,7 +261,7 @@ body{
     align-items: center;
     gap: 6px;
     font-size: 0.75rem;
-    color: rgba(0, 0, 0, 0.6);
+    color: var(--cor-texto-rodape);
     font-weight: 500;
 }
 
@@ -271,7 +270,7 @@ body{
 }
 
 .rodape-conteudo span:hover {
-    color: rgb(0, 128, 128);
+    color: var(--cor-texto-rodape-hover);
 }
 
 
