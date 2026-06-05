@@ -4,10 +4,12 @@
 --fonte-principal: 'Montserrat', sans-serif;
 
 /*CORES*/
---cor-preta: rgb(0, 0, 0);
+--cor-preta: rgba(0, 0, 0, 1);
 --cor-branca: rgb(255, 255, 255);
+--cor-azul: rgb(0, 0, 180);
 --cor-azul-marinho: rgb(8, 16, 56);
 --cor-azul-escuro: rgb(0, 0, 100);
+--cor-azul-escuro-secundario: rgb(0, 0, 120);
 --cor-azul-petroleo: rgb(20, 108, 122);
 --cor-verde-azulado: rgb(0, 128, 128);
 --cor-verde-agua: rgb(230, 244, 241);

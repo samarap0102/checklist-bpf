@@ -39,21 +39,6 @@ body{
     padding: 6px 12px;
 }
 
-.btn-login{
-    background-color: var(--cor-branca);
-    color: var(--cor-preta);
-    border: 1px solid var(--cor-borda-padrao);
-    border-radius: 6px;
-    padding: 8px 16px;  
-    cursor: pointer;
-    transition: 0.2s;
-}
-
-.btn-login:hover {
-    background-color: var(--cor-btn-login-hover);
-    border: 2px solid var(--cor-btn-login-hover-border);
-}
-
 .informacoes,
 .checklist{
     background-color: var(--cor-branca);
