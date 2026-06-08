@@ -24,7 +24,7 @@ body{
     box-shadow: 0 10px 25px rgba(20, 50, 100, 0.5);
 }
 
-.checklist h2 {
+.informacoes.section h2 {
     margin-bottom: 20px;
 }
 
@@ -109,4 +109,21 @@ body{
 
 .btn-inspecao:active{
     transform: translateY(0);
+}
+
+@media (max-width: 1200px){
+
+    .info-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    h2 {
+        font-size: 1.1rem;
+        margin-bottom: 10px;
+    }
+
+    .btn-inspecao{
+        padding: 12px 30px;
+        font-size: 0.9rem;
+    }
 }
