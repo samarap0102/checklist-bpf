@@ -48,10 +48,14 @@
 --cor-borda-btn-nao-conforme-hover: rgb(190, 60, 60);
 --cor-texto-btn-nao-conforme-hover: rgb(95, 10, 10);
 
-/*BTN SALVAR*/
---cor-fundo-btn-salvar: rgb(210, 240, 250);
---cor-borda-btn-salvar: rgb(174, 226, 235);
---cor-texto-btn-salvar: rgb(0, 0, 100);
+/*BTN SALVAR-SEÇÃO*/
+/* --cor-fundo-btn-salvar-secao: rgb(210, 240, 250); */
+--cor-fundo-btn-salvar-secao: rgb(220, 220, 220);
+--cor-borda-btn-salvar-secao: rgb(105, 105, 105);
+--cor-texto-btn-salvar-secao: rgb(0, 0, 100);
+
+/*BTN SALVAR-CHECKLIS*/
+--cor-fundo-btn-salvar-checklist: rgb(0, 0, 80);
 
 /*BTN SALVAR HOVER*/
 --cor-fundo-btn-salvar-hover: rgb(12, 92, 105);

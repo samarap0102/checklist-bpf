@@ -100,8 +100,18 @@ textarea{
 }
 
 textarea:hover{
-    background-color: var(--cor-borda-suave);
+    background-color: var(--cor-azul-bem-claro);
     border: 2px solid var(--cor-preta);
+}
+
+.btn-salvar-secao{
+    background-color: var(--cor-preta);
+    border: none;
+    color: var(--cor-branca);
+    border-radius: 8px;
+    padding: 8px 40px 8px 40px;
+    cursor: pointer;
+    transition: 0.2s;
 }
 
 .icon-inspecao{
@@ -214,11 +224,11 @@ textarea:hover{
 }
 
 .btn-salvar {
-    background-color: var(--cor-fundo-btn-salvar);
-    border: 2px solid var(--cor-borda-btn-salvar);
-    color: var(--cor-texto-btn-salvar);
-    border-radius: 5px;
-    padding: 10px;
+    background-color: var(--cor-fundo-btn-salvar-checklist);
+    border: none;
+    color: var(--cor-branca);
+    border-radius: 8px;
+    padding: 10px 40px 10px 40px;
     cursor: pointer;
     transition: 0.2s;
 }
