@@ -9,6 +9,7 @@
 --cor-azul: rgb(0, 0, 180);
 --cor-azul-pastel: rgb(120, 170, 255);
 --cor-azul-pastel-secundario: rgb(140, 190, 255);
+--cor-azul-pastel-claro: rgb(180, 220, 255);
 --cor-azul-marinho: rgb(8, 16, 56);
 --cor-azul-escuro: rgb(0, 0, 100);
 --cor-azul-escuro-secundario: rgb(0, 0, 120);
@@ -49,7 +50,6 @@
 --cor-texto-btn-nao-conforme-hover: rgb(95, 10, 10);
 
 /*BTN SALVAR-SEÇÃO*/
-/* --cor-fundo-btn-salvar-secao: rgb(210, 240, 250); */
 --cor-fundo-btn-salvar-secao: rgb(220, 220, 220);
 --cor-borda-btn-salvar-secao: rgb(105, 105, 105);
 --cor-texto-btn-salvar-secao: rgb(0, 0, 100);
