@@ -24,7 +24,7 @@ body{
 }
 
 .header{
-    background-color: var(--cor-branca);
+    background-color: var(--cor-azul-claro);
     color: var(--cor-azul-escuro);
     padding: 30px;
     border-bottom: 2px solid var(--cor-borda-suave);
@@ -33,6 +33,7 @@ body{
 .title h1{
     font-size: 1.6rem;
     font-weight: 600;
+    margin-bottom: 3px;
     }
 
 .informacoes{
@@ -40,7 +41,7 @@ body{
 }
 
 .informacoes h2 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin-bottom: 20px;
 }
 
@@ -67,7 +68,7 @@ body{
 .info-item{
     display: flex;
     align-items: center;
-    background-color: var(--cor-azul-pastel-secundario);
+    background-color: var(--cor-azul-claro);
     gap: 10px;
     border: 2px solid var(--cor-borda-suave);
     border-radius: 8px;
@@ -86,7 +87,7 @@ body{
 }
 
 .info-item input:hover{
-    background-color: var(--cor-azul-claro-secundario);
+    background-color: var(--cor-verde-agua);
     border: 1px solid var(--cor-azul-petroleo);
 }
 
@@ -108,13 +109,13 @@ body{
 }
 
 .btn-inspecao{
-    background-color: var(--cor-azul-escuro);
+    background-color: var(--cor-fundo-btn-salvar-checklist);
     color: white;
     border: none;
-    padding: 14px 35px;
+    padding: 10px 80px 10px 80px;
     border-radius: 8px;
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: bold;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -124,7 +125,7 @@ body{
 }
 
 .btn-inspecao:active{
-    transform: translateY(0);
+    transform: scale(0.98);
 }
 
 

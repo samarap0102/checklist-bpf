@@ -13,38 +13,39 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     padding: 20px;
 }
 
 .login-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     width: 100%;
-    max-width: 500px;
+    max-width: 550px;
     background-color: var(--cor-branca);
-    padding: 40px;
     border-radius: 20px;
-    box-shadow: 0 10px 25px rgba(20, 50, 100, 0.5);
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(20, 50, 100, 0.25);
 }
 
-.login-card h1 {
+.login-header {
+    background-color: var(--cor-azul-claro);
+    padding: 20px 40px;
+    border-bottom: 2px solid #eee;
+}
+
+.login-header h1 {
     color: var(--cor-azul-escuro);
-    margin-bottom: 10px;
-    font-size: 1.2rem;
+    font-size: 1.48rem;
+    margin-bottom: 3px;
 }
 
-.login-card h2 {
-    color: var(--cor-preta);    
-    font-size: 0.95rem;
-    text-align: center;
-    margin-bottom: 30px;
+.login-header h2 {
+    color: var(--cor-azul-escuro);
+    font-size: 1rem;
     font-weight: normal;
 }
 
 .login-form {
-    width: 100%;
+    padding: 35px 40px;
     display: flex;
     flex-direction: column;
 }
@@ -53,7 +54,7 @@ body {
     margin-bottom: 5px;
     font-weight: bold;
     font-size: 1rem;
-    color: var(--cor-azul-escuro-secundario);
+    color: var(--cor-preta);
 }
 
 .login-form input {
@@ -66,15 +67,19 @@ body {
 }
 
 .login-form input:hover {
-    background-color: var(--cor-azul-claro-suave);
-    border: 1px solid var(--cor-branca);
+    background-color: var(--cor-verde-agua);
 }
 
-.entrar {
+.login-form input:focus {
+    outline: none;
+    border-color: var(--cor-azul);
+}
+
+.btn-entrar {
     padding: 12px;
     border: none;
     border-radius: 10px;
-    background-color: var(--cor-azul-escuro-secundario);
+    background-color: var(--cor-fundo-btn-salvar-checklist);
     color: var(--cor-branca);
     font-size: 1rem;
     font-weight: bold;
@@ -82,30 +87,31 @@ body {
     transition: 0.3s;
 }
 
-.entrar:hover {
+.btn-entrar:hover {
     background-color: var(--cor-azul);
+}
+
+.btn-entrar:active {
+    transform: scale(0.98);
 }
 
 
 @media (max-width: 600px) {
-    .login-card {
-        padding: 20px 20px;
+
+    .login-header {
+        padding: 25px;
     }
 
-    .login-card h1 {
-        font-size: 1.2rem;
-        margin-top: 10px;
+    .login-form {
+        padding: 25px;
     }
 
-    .login-card h2 {
-        font-size: 1rem;
-        margin-bottom: 20px;
+    .login-header h1 {
+        font-size: 1.4rem;
     }
 
-    .entrar {
-        padding: 10px;
+    .login-header h2 {
         font-size: 0.9rem;
-        margin-bottom: 5px;
     }
 }
 

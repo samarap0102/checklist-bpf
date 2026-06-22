@@ -23,13 +23,16 @@ body{
     border: 2px solid var(--cor-borda-suave); 
 }
 
+.title h1{
+    margin-bottom: 3px;
+}
+
 .checklist{
     background-color: var(--cor-branca);
     border: 1px solid var(--cor-borda-suave);
     padding: 20px 25px;
     font-size: 0.8125rem;
 }
-
 
 .informacoes h2,
 .checklist h2 {
@@ -98,9 +101,10 @@ textarea:hover{
 
 .btn-salvar-secao{
     background-color: var(--cor-azul-claro-secundario);
-    border: 1px solid var(--cor-preta);
+    border: 1px solid #ccc;
     color: var(--cor-preta);
     border-radius: 8px;
+    font-size: 1rem;
     padding: 8px 40px 8px 40px;
     cursor: pointer;
     transition: 0.2s;
@@ -235,6 +239,8 @@ textarea:hover{
     background-color: var(--cor-fundo-btn-salvar-checklist);
     border: none;
     color: var(--cor-branca);
+    font-size: 1rem;
+    font-weight: bold;
     border-radius: 8px;
     padding: 10px 40px 10px 40px;
     cursor: pointer;
@@ -347,8 +353,11 @@ textarea:hover{
         margin: 2px;
     }
 
+
+    /*ARRUMAR, NÃO ESTA PEGANDO*/
     .btn-salvar{
-        font-size: 0.8rem;
+        font-size: 1rem;
+        padding: 2px 5px 200px 5px;
     }
 
     .rodape-conteudo span{
