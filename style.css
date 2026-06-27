@@ -77,6 +77,7 @@ details[open] summary::after {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    padding: 0 20px;
 }
 
 .observacao label {
@@ -353,11 +354,9 @@ textarea:hover{
         margin: 2px;
     }
 
-
-    /*ARRUMAR, NÃO ESTA PEGANDO*/
     .btn-salvar{
         font-size: 1rem;
-        padding: 2px 5px 200px 5px;
+        padding: 10px 20px 10px 20px;
     }
 
     .rodape-conteudo span{
