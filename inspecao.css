@@ -5,8 +5,10 @@
 }
 
 body{
-    font-family: var(--fonte-principal);
-    background: var(--cor-azul-claro-secundario);
+    background-image: url(src/images/back.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,18 +18,34 @@ body{
 
 .container{
     width: 100%;
-    max-width: 1200px;
-    background-color: var(--cor-branca);
+    max-width: 900px;
+    background-color: rgba(255, 255 , 255  , 0.9);
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 10px 25px rgba(20, 50, 100, 0.25);
 }
 
 .header{
-    background-color: var(--cor-azul-claro);
-    color: var(--cor-azul-escuro);
+    background-color:  rgba(8, 16, 56, 0.85);
+    color: var(--cor-branca);
     padding: 30px;
     border-bottom: 2px solid var(--cor-borda-suave);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-top{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.title-top svg{
+    width: 40px;
+    height: 40px;
+    color: var(--cor-branca);
+    flex-shrink: 0;
 }
 
 .title h1{
@@ -45,18 +63,18 @@ body{
     margin-bottom: 20px;
 }
 
+.info-inspecao{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
 .icon-inspecao{
     width: 24px;
     height: 24px;
     background-color:  var(--cor-branca);
     border-radius: 50%;
     font-size: 18px;
-}
-
-.info-inspecao{
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
 }
 
 .info-container{
@@ -68,7 +86,7 @@ body{
 .info-item{
     display: flex;
     align-items: center;
-    background-color: var(--cor-azul-claro);
+    background-color: var(--cor-borda-padrao);
     gap: 10px;
     border: 2px solid var(--cor-borda-suave);
     border-radius: 8px;
@@ -87,8 +105,7 @@ body{
 }
 
 .info-item input:hover{
-    background-color: var(--cor-verde-agua);
-    border: 1px solid var(--cor-azul-petroleo);
+    background-color: var(--cor-azul-bem-claro);
 }
 
 .info-content {
@@ -109,12 +126,16 @@ body{
 }
 
 .btn-inspecao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     background-color: var(--cor-fundo-btn-salvar-checklist);
     color: white;
     border: none;
-    padding: 10px 80px 10px 80px;
-    border-radius: 8px;
-    font-size: 1rem;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 1.2rem;
     font-weight: bold;
     cursor: pointer;
     transition: 0.3s;
@@ -122,7 +143,7 @@ body{
 }
 
 .btn-inspecao:hover{
-    background-color: var(--cor-azul);
+    background-color: var(--cor-fundo-btn-salvar-hover);
 }
 
 .btn-inspecao:active{

@@ -4,7 +4,10 @@
 }
 
 html{
-    background: var(--cor-azul-claro);
+    background-image: url(src/images/back.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 body{
@@ -15,20 +18,41 @@ body{
 }
 
 .header{
+    padding: 30px 40px;
     display: flex;
-    padding: 0 20px 20px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-top{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.title-top svg{
+    width: 40px;
+    height: 40px;
+    color: var(--cor-preta);
+    flex-shrink: 0;
 }
 
 .title h1{
-    margin-bottom: 3px;
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--cor-preta);
 }
 
 .title p{
-    font-size: 1.2rem;
+    margin: 6px 0 0;
+    font-size: 1.1rem;
+    color: var(--cor-preta);
+    padding-left: 2px;
 }
 
 .checklist{
-    background-color: var(--cor-branca);
+    background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid var(--cor-borda-suave);
     border-radius: 20px;
     padding: 20px 25px;
@@ -39,9 +63,8 @@ body{
     box-shadow: 0 10px 25px rgba(20, 50, 100, 0.25);
 }
 
-.informacoes h2,
 .checklist h2 {
-    margin-bottom: 20px;
+    margin-bottom: 7px;
 }
 
 .checklist-list{
