@@ -18,10 +18,12 @@ body{
 }
 
 .header{
+    background-color: rgba(8, 16, 56, 0.85);
     padding: 30px 40px;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 1dvb;
 }
 
 .title-top{
@@ -33,7 +35,7 @@ body{
 .title-top svg{
     width: 40px;
     height: 40px;
-    color: var(--cor-preta);
+    color: var(--cor-branca);
     flex-shrink: 0;
 }
 
@@ -41,13 +43,13 @@ body{
     margin: 0;
     font-size: 2rem;
     font-weight: 700;
-    color: var(--cor-preta);
+    color: var(--cor-branca);
 }
 
 .title p{
     margin: 6px 0 0;
     font-size: 1.1rem;
-    color: var(--cor-preta);
+    color: var(--cor-branca);
     padding-left: 2px;
 }
 
@@ -67,24 +69,18 @@ body{
     margin-bottom: 7px;
 }
 
-.checklist-list{
-    background-color: var(--cor-branca);
-    border: 1px solid var(--cor-borda-padrao);
-    margin-top: 10px;
-    border-radius: 5px;
-}
-
 .check-texto{
     font-size: 0.9rem;
 }
 
 summary {
     list-style: none;
+    margin-top: 10px;
     cursor: pointer;
     font-weight: 600;
     font-size: 1rem;
     border: 1px solid var(--cor-borda-padrao);
-    background-color: var(--cor-azul-claro-suave);
+    background-color: var(--cor-borda-padrao);
     border-radius: 5px;
     padding: 12px;
     display: flex;
@@ -273,17 +269,19 @@ textarea:hover{
     background-color: var(--cor-fundo-btn-salvar-checklist);
     border: none;
     color: var(--cor-branca);
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: bold;
     border-radius: 8px;
-    padding: 10px 40px 10px 40px;
+    padding: 10px 60px 10px 60px;
     cursor: pointer;
     transition: 0.2s;
+    margin-top: 0;
+    width: 100%;
 }
 
 .btn-salvar:hover {
-    background-color: var(--cor-azul-escuro-secundario);
-    border-radius: 10px;
+    background-color: var(--cor-cobre-claro);
+    color: var(--cor-preta);
 }
 
 .btn-salvar:active{
@@ -295,6 +293,7 @@ textarea:hover{
     padding: 12px;
     background-color: var(--cor-fundo-rodape);
     border: 1px solid var(--cor-borda-padrao);
+    border-radius: 10px;
     text-align: center;
 }
 

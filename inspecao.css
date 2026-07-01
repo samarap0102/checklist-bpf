@@ -77,6 +77,13 @@ body{
     font-size: 18px;
 }
 
+.icon-inspecao svg{
+    color: var(--cor-cobre);
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+}
+
 .info-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -102,10 +109,6 @@ body{
     font-size: 14px;
     transition: 0.2s;
     margin-top: 5px;
-}
-
-.info-item input:hover{
-    background-color: var(--cor-azul-bem-claro);
 }
 
 .info-content {
@@ -143,7 +146,9 @@ body{
 }
 
 .btn-inspecao:hover{
-    background-color: var(--cor-fundo-btn-salvar-hover);
+    color: var(--cor-preta); 
+    border-color: var(--cor-preta);
+    background-color: var(--cor-cobre-claro);
 }
 
 .btn-inspecao:active{

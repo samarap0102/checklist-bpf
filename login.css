@@ -94,6 +94,8 @@ body {
 .login-form input:focus {
     outline: none;
     border-color: var(--cor-preta);
+    background-color: rgba(242, 226, 218, 0.6);
+    border: 2px solid var(--cor-cobre-claro);
 }
 
 .btn-entrar{
@@ -112,7 +114,9 @@ body {
 }
 
 .btn-entrar:hover {
-    background-color: var(--cor-fundo-btn-salvar-hover);
+    color: var(--cor-preta); 
+    border-color: var(--cor-preta);
+    background-color: var(--cor-cobre-claro);
 }
 
 .btn-entrar:active {

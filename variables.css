@@ -20,6 +20,9 @@
 --cor-azul-claro-secundario: rgb(200, 231, 244);
 --cor-azul-claro-suave: rgb(228, 247, 252);
 --cor-azul-bem-claro: rgb(245, 253, 255); 
+--cor-cobre: rgb(220, 140, 68);
+--cor-cobre-claro: rgb(238, 168, 110);
+--cor-cobre-claro-secundario:  rgb(242, 226, 218);
 
 /*BORDAS*/
 --cor-borda-padrao: #ccc;
